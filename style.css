@@ -1,0 +1,60 @@
+#vertical_line{
+    height:80px;
+    border-right:1px solid #f2f2f2;
+    display: flex;
+    justify-content: left;
+    margin:0px;
+}
+
+#search_bar{
+    width:40%;
+    background-color: #f8f8f8;
+    border:1px solid #ededed;
+    border-radius: 10px;
+    padding: 0px 10px;
+}
+
+#search_bar>input{
+    width:95%;
+    background-color: transparent;
+    border:none;
+    padding-left: 6px;
+    height:40px;
+}
+
+.category{
+    width:90%;
+    margin:auto;
+    
+    
+}
+
+.my_card{
+    width:200px;
+    overflow: hidden;
+   margin-top: 30px;
+   
+}
+.my_card>img{
+    width:90%;
+    margin:auto;
+}
+
+.list{
+    overflow-x: scroll;  
+    text-wrap: nowrap;
+}
+
+.timer{
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    font-size: 8px;
+    font-weight: 900;
+    width:fit-content;
+    padding:3px;
+
+}
+
+.weight{
+    color:#666666;
+}
